@@ -10,13 +10,13 @@
 
 **Note:** External style sheets can help you manage your CSS better. They allow you to keep all the standard-compliant CSS code in one place and load it from there.
 
-## Inline CSS Syntax
+## 1. Inline CSS Syntax
 
 ```html
 <h1 style="color: red; font-size: 22px;">This is Heading One</h1>
 ```
 
-## Internal CSS Syntax
+## 2. Internal CSS Syntax
 
 ```html
 <!DOCTYPE html>
@@ -38,8 +38,10 @@
 </html>
 ```
 
-## External CSS
+## 3. External CSS
 
-**Step-1:** Create a `style.css` file
+* **Step-1:** Create a `style.css` file
 
-**Step-2:** Go to `HTML` file and use a `<link>` element to link to an external CSS file.
+* **Step-2:** Go to `HTML` file and use a `<link>` element to link to an external CSS file and implement your CSS file into the **link> href="`style.css`"**.
+
+* **Step-3** The HTML `rel=stylesheet` attribute specifies that an external link is a stylesheet that will be applied to the current page. 
