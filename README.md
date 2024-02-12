@@ -1,2 +1,2 @@
-# Documentations
- Explore comprehensive and well-organized code documentation for efficient development. Clear explanations, code samples, and best practices.
+# Coding Notes
+ Explore comprehensive and well-organized code notes for efficient development. clear explanations, code samples, and best practices.
