@@ -49,7 +49,8 @@ const mongoose = require('mongoose')
 const app = express()
 const port = 3000
 
-// Add your connection string
+// Add your connection string.
+// NOTE: In production, we use .env file to protect our database connection String
 const DB = 'mongodb+srv://atlasdata:atlasdata2222@cluster0.n70bxzt.mongodb.net/?retryWrites=true&w=majority'
 
 // Connect with DB
@@ -64,8 +65,7 @@ app.get('/', (req,res)=>{
 })
 
 app.listen(port, ()=>{
-    console.log(`server is listening on ${port}`)
-    
+    console.log(`server is listening on ${port}`) 
 })
 ```
 
