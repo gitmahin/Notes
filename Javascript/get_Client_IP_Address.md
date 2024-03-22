@@ -2,9 +2,9 @@
 
 I showed you 4 methods to show client IP Address using JS.
 
-### You can run these methods on my Repl [https://replit.com/@nimahin25]
+### You can run these methods on my Replit [https://replit.com/@nimahin25]
 
-Just fork my REPL and run the code 😃
+Just fork my REPL (folder: NodeJs projects) and run the code 😃
 
 ## ▶ In Method - 03
 
